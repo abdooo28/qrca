@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Image</title>
+    <style>
+        /* Centering the image using Flexbox */
+        body {
+            display: flex;
+            justify-content: center; /* Horizontally center */
+            align-items: center; /* Vertically center */
+            height: 100vh; /* Full viewport height */
+            margin: 0;
+            background-color: #f0f0f0; /* Optional background */
+        }
+
+        img {
+            max-width: 100%; /* Ensures the image is responsive */
+            max-height: 90vh; /* Prevents the image from overflowing */
+        }
+    </style>
+</head>
+<body>
+    <img src="caffe.jpg" alt="Girl in a jacket" width="500" height="600">
+
+</body>
+</html>
